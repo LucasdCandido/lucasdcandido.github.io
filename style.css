@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(98, 102, 101, 0);
+}
+h1 {
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+pre {
+    background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+}
+a {
+    background-color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
