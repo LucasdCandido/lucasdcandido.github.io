@@ -3,3 +3,11 @@
 body {
     background-image: linear-gradient(#615DB0, #372DFA);
 }
+main {
+    background-color: white;
+    border: 10px;
+    box-shadow: 9px, 9px, black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
