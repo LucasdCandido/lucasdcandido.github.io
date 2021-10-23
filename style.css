@@ -5,7 +5,7 @@ body {
 }
 main {
     background-color: white;
-    border: 10px;
+    border: 10px, white;
     box-shadow: 9px, 9px, black;
     width: 600px;
     padding: 10px;
