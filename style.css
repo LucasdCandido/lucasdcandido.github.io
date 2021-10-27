@@ -8,7 +8,7 @@ body {
 }
 main {
     font-family: 'Dancing Script', cursive;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.418);
     border: 10px, white;
     box-shadow: 9px, 9px, black;
     width: 600px;
