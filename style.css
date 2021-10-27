@@ -19,6 +19,11 @@ main {
 }
 h1 {
     width: auto;
-    background-color: linear-gradient(#1E48E3 12%, #218AFD);
+    background-color: linear-gradient( to right #1E48E3 12%, #218AFD);
+    font-family: 'Dancing Script', cursive;
+}
+h2 {
+    width: auto;
+    background-color: linear-gradient( to right #1E48E3 12%, #218AFD);
     font-family: 'Dancing Script', cursive;
 }
