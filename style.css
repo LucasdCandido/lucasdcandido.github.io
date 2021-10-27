@@ -3,11 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 body {
-    background-image: linear-gradient(#615DB0, #372DFA);
+    background-image: linear-gradient(#5D1EE3, #372DFA);
+    background-attachment: fixed;
 }
 main {
     font-family: 'Dancing Script', cursive;
-    background-color: white;
+    background-color: gray;
     border: 10px, white;
     box-shadow: 9px, 9px, black;
     width: 600px;
