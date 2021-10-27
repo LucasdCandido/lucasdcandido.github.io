@@ -21,11 +21,11 @@ h1 {
     width: auto;
     background-color: linear-gradient( to right #77ACF2 12%, #8DB9F2);
     font-family: 'Dancing Script', cursive;
-    align-self: center;
+    text-align: center;
 }
 h2 {
     width: auto;
     background-color: linear-gradient( to right #77ACF2 12%, #8DB9F2);
     font-family: 'Dancing Script', cursive;
-    align-self: center;
+    text-align: center;
 }
