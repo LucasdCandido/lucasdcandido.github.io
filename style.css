@@ -30,5 +30,6 @@ h2 {
     text-align: center;
 }
 div {
-    display: inline-block;
+    display: inline-flexbox;
+    float: left;
 }
