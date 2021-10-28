@@ -30,6 +30,24 @@ h2 {
     text-align: center;
 }
 div {
-    display: inline-flexbox;
-    float: left;
+    display: inline-block;
+}
+
+.conteudo {
+    display: table;
+}
+
+.imagem {
+    display: table-cell;
+    flex: left;
+}
+
+.texto {
+    display: table-cell;
+    flex-wrap: wrap;
+}
+
+.social {
+    display: table-column;
+    flex-direction: column;
 }
