@@ -11,10 +11,10 @@ body {
 main {
     font-family: 'Roboto Mono', monospace;
     background-color: rgba(128, 128, 128, 0.418);
-    border: 10px white;
+    border: 3px white;
     box-shadow: 5px 5px 2px black;
     width: auto;
-    padding: 10px;
+    padding: 3px;
     margin: auto;
 }
 h1 {
