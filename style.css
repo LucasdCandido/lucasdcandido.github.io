@@ -31,17 +31,17 @@ h2 {
 }
 
 .conteudo {
-    display: table;
+    display: inline-block;
 }
 
 .imagem {
-    display: table-cell;
+    display: inline-block;
     height: 193px;
     padding-right: 2px;
 }
 
 .texto {
-    display: table-cell;
+    display: inline-block;
     height: 193px;
     padding-top: 2px;
 }
