@@ -45,6 +45,6 @@ h2 {
 }
 
 .social {
-    display: table-column;
-    flex-direction: column;
+    display: table-cell;
+    flex-direction: row;
 }
