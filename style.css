@@ -36,12 +36,10 @@ h2 {
 
 .imagem {
     display: table-cell;
-    flex: left;
 }
 
 .texto {
     display: table-cell;
-    flex-wrap: wrap;
 }
 
 .social {
