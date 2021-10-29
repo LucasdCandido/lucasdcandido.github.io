@@ -36,10 +36,14 @@ h2 {
 
 .imagem {
     display: table-cell;
+    height: 193px;
+    padding-right: 2px;
 }
 
 .texto {
     display: table-cell;
+    height: 193px;
+    padding-top: 2px;
 }
 
 .social {
