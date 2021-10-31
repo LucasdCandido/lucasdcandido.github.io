@@ -19,34 +19,53 @@ main {
 }
 h1 {
     width: auto;
-    background-color: linear-gradient( to right #77ACF2 12%, #8DB9F2);
+    background-image: linear-gradient(to right, #77ACF2 12%, #8DB9F2);
     font-family: 'Dancing Script', cursive;
     text-align: center;
 }
 h2 {
     width: auto;
-    background-color: linear-gradient( to right #77ACF2 12%, #8DB9F2);
+    background-image: linear-gradient(to right, #77ACF2 12%, #8DB9F2);
     font-family: 'Dancing Script', cursive;
     text-align: center;
 }
+div {
+    display: inline-flex;
+}
 
-.conteudo {
-    display: inline-block;
+div.conteudo {
+    display: inline-flex;
+    flex-direction: row;
 }
 
 .imagem {
-    display: inline-block;
-    height: 193px;
-    padding-right: 2px;
+    display: inline-flex;
+
 }
 
 .texto {
-    display: inline-block;
-    height: 193px;
+    display: inline-flex;
+    flex-direction: row-reverse;
     padding-top: 2px;
+    padding-left: 2px;
 }
 
 .social {
-    display: table-cell;
+    display: inline-flex;
     flex-direction: row;
+}
+
+.titulosocial {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.link {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.imagem {
+    display: inline-flex;
+    flex-direction: column;
 }
