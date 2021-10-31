@@ -57,15 +57,12 @@ div.conteudo {
 
 .titulosocial {
     display: inline-flex;
-    flex-direction: row;
 }
 
 .link {
     display: inline-flex;
-    flex-direction: row;
 }
 
 .imagem {
     display: inline-flex;
-    flex-direction: column;
 }
