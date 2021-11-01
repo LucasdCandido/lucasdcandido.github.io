@@ -29,40 +29,41 @@ h2 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
 }
+
+
 div {
-    display: inline-flex;
+    display: grid;
+    gap: 2px;
+    grid-template-areas: "a b"
+                         "c c"
+                         "d d"
+                         "e e";
 }
 
-div.conteudo {
-    display: inline-flex;
-    flex-direction: row;
+.imgprincipal{
+    grid-area: a;
 }
 
-.imagem {
-    display: inline-flex;
-
+.conteudoprincipal {
+    grid-area: b;
 }
 
-.texto {
-    display: inline-flex;
-    flex-direction: row-reverse;
-    padding-top: 2px;
-    padding-left: 2px;
+.titulosocial{
+    grid-area: c;
 }
 
-.social {
-    display: inline-flex;
-    flex-direction: row;
+.fotogit{
+    grid-area: d;
 }
 
-.titulosocial {
-    display: inline-flex;
+.linkgit{
+    grid-area: d;
 }
 
-.link {
-    display: inline-flex;
+.fotolinkedin{
+    grid-area: e;
 }
 
-.imagem {
-    display: inline-flex;
+.linklinkedin{
+    grid-area: e;
 }
