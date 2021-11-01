@@ -58,6 +58,7 @@ div {
 
 .linkgit{
     grid-area: d;
+    margin-left: 22px;
 }
 
 .fotolinkedin{
@@ -66,4 +67,5 @@ div {
 
 .linklinkedin{
     grid-area: e;
+    margin-left: 22px;
 }
