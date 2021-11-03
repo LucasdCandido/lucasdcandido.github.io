@@ -14,7 +14,7 @@ main {
     border: 3px white;
     box-shadow: 5px 5px 2px black;
     width: auto;
-    padding: 3px;
+    padding: 3px;   
     margin: auto;
 }
 h1 {
@@ -30,42 +30,31 @@ h2 {
     text-align: center;
 }
 
-
-div {
-    display: grid;
-    gap: 2px;
-    grid-template-areas: "a b"
-                         "c c"
-                         "d d"
-                         "e e";
+#perfil{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
 .imgprincipal{
-    grid-area: a;
+    margin: auto 15px auto 15px;
+}
+
+
+#redes-sociais{
+    display: block;
+}
+
+@media screen and (max-width: 690px) {
+	#perfil{
+        flex-direction: column;
+    }
+
+    .imgprincipal{
+        margin: 0 auto;
+    }
 }
 
 .conteudoprincipal {
-    grid-area: b;
-}
-
-.titulosocial{
-    grid-area: c;
-}
-
-.fotogit{
-    grid-area: d;
-}
-
-.linkgit{
-    grid-area: d;
-    margin-left: 22px;
-}
-
-.fotolinkedin{
-    grid-area: e;
-}
-
-.linklinkedin{
-    grid-area: e;
-    margin-left: 22px;
+    text-align: justify;
 }
